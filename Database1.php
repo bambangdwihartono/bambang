@@ -24,7 +24,9 @@
         return $hasil;
     	}
 
+    	function input($nama,$alamat,$usia){
+        	mysqli_query("insert into user values('','$nama','$alamat','$usia')");
+    	}   
 	}
-
 	$db = new Database1;
  ?>

@@ -4,6 +4,10 @@
     <title></title>
 </head>
 <body>
+    <?php 
+    include 'Database1.php';
+
+     ?>
     <h3>Tambah Data User</h3>
     <form action="proses1.php?aksi=tambah" method="post">
         <table>
